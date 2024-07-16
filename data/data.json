@@ -1,0 +1,18 @@
+{
+  "last_day": "03/07/2024",
+  "history": [
+    {
+      "date": "03/07/2024",
+      "data": [
+        {
+          "itens": [
+            "Minha primeira venda!"
+          ],
+          "time": "13:00",
+          "value": 15
+        }
+      ],
+      "total": 15
+    }
+  ]
+}

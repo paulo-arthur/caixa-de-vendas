@@ -1,0 +1,41 @@
+{
+  "name": "sistema-de-vendas",
+  "productName": "Sistema de Vendas",
+  "displayName": "Sistema de Vendas",
+  "homepage": "https://github.com/paulo-arthur",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "run",
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "sistema-de-vendas",
+    "dmg": {
+      "title": "Sistema de Vendas"
+    },
+    "linux": {
+      "icon": "build/icon.ico",
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    },
+    "win": {
+      "target": "NSIS",
+      "icon": "build/icon.ico"
+    }
+  },
+  "author": "Paulo Arthur <pauloart.hur670@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.1.0",
+    "electron-builder": "^24.13.3",
+    "electron-reloader": "^1.2.3"
+  },
+  "description": "Sistema de vendas automatizado que envia relatórios diários por e-mail",
+  "dependencies": {
+    "nodemailer": "^6.9.14"
+  }
+}
