@@ -2,9 +2,10 @@ const {app, BrowserWindow } = require('electron');
 
 const createWindow = () => {
   const win = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 1000,
+    height: 800,
     autoHideMenuBar: true,
+    icon: 'build.ico',
     webPreferences: {
     nodeIntegration: true,
     contextIsolation: false
@@ -12,7 +13,6 @@ const createWindow = () => {
   })
 
   win.loadFile('index.html');
-  win.openDevTools();
 }
 
 app.whenReady().then(() => {

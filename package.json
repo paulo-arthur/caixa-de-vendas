@@ -16,7 +16,7 @@
       "title": "Sistema de Vendas"
     },
     "linux": {
-      "icon": "build/icon.ico",
+      "icon": "icon.ico",
       "target": [
         "AppImage",
         "deb"
@@ -24,13 +24,13 @@
     },
     "win": {
       "target": "NSIS",
-      "icon": "build/icon.ico"
+      "icon": "icon.ico"
     }
   },
   "author": "Paulo Arthur <pauloart.hur670@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^31.1.0",
+    "electron": "^31.2.1",
     "electron-builder": "^24.13.3",
     "electron-reloader": "^1.2.3"
   },
